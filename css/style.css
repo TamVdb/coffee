@@ -68,16 +68,20 @@ footer {
       justify-content: space-between;
       gap: 20px;
       background-color: var(--dark);
+      padding: 2rem 0 4rem 0;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
 
       .footer-col {
+         margin-top: -100px;
          display: flex;
          flex-direction: column;
+         align-items: center;
          width: calc(33.33% - 20px);
 
          .image {
             border-radius: 50%;
-            padding: 1rem;
-            text-align: center;
+            padding: 0.5rem;
             margin: auto;
             width: 150px;
             height: 150px;
@@ -86,7 +90,24 @@ footer {
          h3 {
             color: white;
             font-size: 1.1rem;
-            padding-bottom: 25px;
+            padding: 25px 0;
+            text-align: center;
+         }
+
+         .order {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+
+            p {
+               color: white;
+            }
+
+            svg {
+               color: white;
+               font-size: 1rem;
+            }
          }
       }
    }
