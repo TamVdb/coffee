@@ -1,0 +1,15 @@
+# Mac files
+.DS_Store
+
+# VS CODE
+.vscode/*
+*.code-workspace
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Photoshop & Illustrator
+.psd
+.ai
